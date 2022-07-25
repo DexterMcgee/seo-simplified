@@ -7,7 +7,8 @@ export default function Title() {
       <h1 className="title-man">
         {" "}
         Improving Your Website with Search Engine Optimization (SEO){" "}
-      </h1>
+        <sup className="titlenumber">1</sup>
+      </h1>{" "}
       <p className="overword">
         {" "}
         So, you’ve created a website. Maybe you want to share something, or

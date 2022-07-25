@@ -6,7 +6,7 @@ export default function Strategy() {
     <div>
       <h2 className="title-men overword strategy-id" id="Strategy">
         {" "}
-        Render Speed and Strategies{" "}
+        Render Speed and Strategies <sup className="titlenumber"> 5</sup>
       </h2>
       <Image
         src={react}

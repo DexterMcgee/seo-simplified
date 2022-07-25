@@ -3,7 +3,7 @@ export default function SEO() {
     <div className="underword">
       <h2 className="title-men" id="SEO">
         {" "}
-        What is SEO?{" "}
+        What is SEO? <sup className="titlenumber">2</sup>
       </h2>
       <p>
         What is SEO exactly? The term{" "}

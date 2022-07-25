@@ -3,7 +3,7 @@ export default function Conclusion() {
     <div>
       <h2 className="title-men" id="Conclusion">
         {" "}
-        Make the Best of your Site{" "}
+        Make the Best of your Site <sup className="titlenumber">8</sup>
       </h2>
       <p>
         The easy part is defining countless metadata for bots to parse;

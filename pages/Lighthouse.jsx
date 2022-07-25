@@ -6,7 +6,7 @@ export default function Lighthouse() {
     <div>
       <h2 className="title-men" id="Lighthouse">
         {" "}
-        Google Lighthouse{" "}
+        Google Lighthouse <sup className="titlenumber">7</sup>
       </h2>
       <Image
         src={lighthouse}

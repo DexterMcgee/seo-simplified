@@ -3,7 +3,7 @@ export default function Structure() {
     <div>
       <h2 className="title-men underword" id="Structure">
         {" "}
-        Analyzing Markup Structure
+        Analyzing Markup Structure <sup className="titlenumber">4</sup>
       </h2>
       <p className="overword">
         Although many factors contribute to creating a working website, bots

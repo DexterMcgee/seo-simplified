@@ -8,7 +8,7 @@ export default function Bots() {
     <div>
       <h2 className="title-men overword" id="Bots">
         {" "}
-        How Exactly do you Appeal to Bots?
+        How Exactly do you Appeal to Bots? <sup className="titlenumber">3</sup>
       </h2>
       <Image
         src={happybot}
