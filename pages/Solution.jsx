@@ -4,7 +4,10 @@ import nextlight from "../public/img/nextlight.png";
 export default function Solution() {
   return (
     <div>
-      <h2 className="title-men"> Perhaps there’s a Solution </h2>
+      <h2 className="title-men" id="Solution">
+        {" "}
+        Perhaps there’s a Solution{" "}
+      </h2>
       <p className="overword">
         Of the aforementioned strategies, each rendering practice can work well
         if implemented correctly, but the drawbacks can often be a weakness that

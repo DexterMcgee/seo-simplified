@@ -1,7 +1,10 @@
 export default function Structure() {
   return (
     <div>
-      <h2 className="title-men underword"> Analyzing Markup Structure</h2>
+      <h2 className="title-men underword" id="Structure">
+        {" "}
+        Analyzing Markup Structure
+      </h2>
       <p className="overword">
         Although many factors contribute to creating a working website, bots
         read the metadata present in the <em>head</em> of an HTML webpage. This

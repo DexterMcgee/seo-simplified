@@ -4,7 +4,10 @@ import lighthouse from "../public/img/lighthouse.png";
 export default function Lighthouse() {
   return (
     <div>
-      <h2 className="title-men"> Google Lighthouse </h2>
+      <h2 className="title-men" id="Lighthouse">
+        {" "}
+        Google Lighthouse{" "}
+      </h2>
       <Image
         src={lighthouse}
         width={150}

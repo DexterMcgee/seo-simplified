@@ -6,7 +6,7 @@ import irobot from "../public/img/irobot.png";
 export default function Bots() {
   return (
     <div>
-      <h2 className="title-men overword">
+      <h2 className="title-men overword" id="Bots">
         {" "}
         How Exactly do you Appeal to Bots?
       </h2>

@@ -57,31 +57,77 @@ p {
 }
 
 .icontray {
-  background: red;
+  background: hsl(0deg, 0%, 60%);
+  background: transparent;
+  opacity: 85%;
   border-radius: 50px;
   width: 40px;
-  height: 600px;
+  height: 230px;
   position: fixed;
-  top: 0.5rem;
   left: 30px;
+  bottom: 0.5rem;
   margin-bottom: 30px;
+  justify-items: center;
+}
+@media screen and (max-width: 768px) {
+  .icontray {
+    top: unset;
+    bottom: -0.2rem;
+    left: 1px;
+  }
 }
 
-#pointup,
-#pointdown {
-  width: 25px;
-  background: transparent;
-  padding: 0;
-  margin-bottom: 4%;
-  z-index: 4;
+.number1,
+.number2,
+.number3,
+.number4,
+.number5,
+.number6,
+.number7,
+.number8 {
+  background: hsl(0deg, 0%, 0%);
+  color: hsl(0deg, 0%, 100%);
+  width: 28px;
+  height: 28px;
+  border-radius: 100px;
+  text-align: center;
+  opacity: 40%;
+  cursor: pointer;
 }
-#pointup:hover,
-#pointdown:hover {
-  transform: scale(1.2);
+@media screen and (max-width: 464px) {
+  .number1,
+.number2,
+.number3,
+.number4,
+.number5,
+.number6,
+.number7,
+.number8 {
+    opacity: 30%;
+  }
+}
+.number1:hover,
+.number2:hover,
+.number3:hover,
+.number4:hover,
+.number5:hover,
+.number6:hover,
+.number7:hover,
+.number8:hover {
+  opacity: 100%;
   transition: 0.15s ease-in-out;
 }
 
-#title p {
+.title-man {
+  margin-top: 2%;
+}
+@media screen and (max-width: 768px) {
+  .title-man {
+    margin-top: unset;
+  }
+}
+
+#Title p {
   padding-top: 25px;
 }
 

@@ -4,7 +4,7 @@ import react from "../public/img/react.png";
 export default function Strategy() {
   return (
     <div>
-      <h2 className="title-men overword strategy-id">
+      <h2 className="title-men overword strategy-id" id="Strategy">
         {" "}
         Render Speed and Strategies{" "}
       </h2>

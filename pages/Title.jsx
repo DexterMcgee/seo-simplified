@@ -3,7 +3,7 @@ import cert from "../public/img/cert.png";
 
 export default function Title() {
   return (
-    <div id="title">
+    <div id="Title">
       <h1 className="title-man">
         {" "}
         Improving Your Website with Search Engine Optimization (SEO){" "}
