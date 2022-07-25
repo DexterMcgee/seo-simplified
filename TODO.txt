@@ -23,3 +23,5 @@ increase padding between images (except bounce) ``
 add button animation ``
 
 finish padding and margins ``
+
+rename folder

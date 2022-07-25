@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Tray from "./Tray";
 import Title from "./Title";
 import SEO from "./SEO";
 import Bots from "./Bots";
@@ -37,6 +38,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <div className="body">
+        <Tray />
         <Title />
         <SEO />
         <Bots />
