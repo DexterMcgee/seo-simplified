@@ -24,6 +24,7 @@ export default function Footer() {
           <a
             href="https://personal-portfolio-psi-seven.vercel.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <Image src={folder} width={40} height={40} />
           </a>
@@ -32,7 +33,11 @@ export default function Footer() {
             <Image src={email} width={40} height={40} />
           </a>
           &ensp;
-          <a href="https://github.com/DexterMcgee" target="_blank">
+          <a
+            href="https://github.com/DexterMcgee"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Image src={github} width={40} height={40} />
           </a>
         </div>
