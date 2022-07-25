@@ -1,0 +1,25 @@
+
+
+change font ``
+change icon ``
+adjust scrollbar style (and concatenate scss) ``
+add to top button ``
+
+create dark theme
+
+add images ``
+
+media query sizes ``
+change line height ``
+
+add button that goes through ids (only on mobile)
+left side fixed button for perusing 
+right side fixed button for theme 
+
+add social links ~~
+
+increase padding between images (except bounce) ``
+
+add button animation ``
+
+finish padding and margins ``

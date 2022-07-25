@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Centra;
+  src: url("../public/font/CentraNo2-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Centra;
+  src: url("../public/font/CentraNo2-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Centra;
+  src: url("../public/font/CentraNo2-Book.ttf");
+  font-weight: 400;
+}
+
+* {
+  background: beige;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 0 4px 0;
+  font-family: Centra;
+  color: black;
+}
+
+@media screen and (max-width: 1400px) {
+  * {
+    width: 99%;
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 1400px) {
+  * {
+    width: 95%;
+  }
+}
+
+// div .body {
+//   background-color: aqua;
+// }
